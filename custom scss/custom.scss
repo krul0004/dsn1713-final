@@ -22,22 +22,39 @@ $h6-font-size: $font-size-base !default;
 
 $primary: #85b49c; // Gentle green for primary actions
 $secondary: #6c757d; // Bootstrap's default secondary
-$success: #85b49c; // Match primary for success
+$success: #5D8474; // darker for success
 $warning: #ffc107; // Bootstrap's default warning
 $danger: #dc3545; // Bootstrap's default danger
 $info: #17a2b8; // Bootstrap's default info
 $light: #f8f9fa; // Light gray
 $dark: #343a40; // Dark gray
 
-
+// accordions
+$accordion-border-width: 0;
+$accordion-bg: transparent;
 
 // Buttons
 $btn-border-radius: 0.375rem;
 $btn-padding-y: 0.5rem;
 $btn-padding-x: 1.25rem;
 
-// Update Spacing
-$spacer: 1rem;
+.navbar-button {
+  background-color: #FFC107; // Bright yellow color
+  color: #fff; // White text
+  padding: 10px 20px; // Adjust padding for the button size
+  border: none; // No border
+  border-radius: 5px; // Smooth rounded corners
+  font-weight: 600; // Slightly bold text
+  
+  &:hover {
+    background-color: #FFA000; // Slightly darker yellow on hover
+    color: #fff; // Keep the text white
+   
+    transform: translateY(-2px); // Slight lift on hover
+  }
+
+}
+
 
 $container-padding-x: 20px;
 
@@ -51,7 +68,9 @@ $container-max-widths: (
 $container-padding-x: 130px;
 
 
-
+#about {
+ background: #DCE6DE;
+}
 
 
 
@@ -82,3 +101,9 @@ $container-padding-x: 130px;
   }
 }
 
+
+
+
+.nav-link {
+  color: #5D8474;
+}
