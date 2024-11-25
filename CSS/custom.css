@@ -11985,9 +11985,12 @@ textarea.form-control-lg {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+.nav-link:hover {
+  transform: translateY(-2px);
+}
 
 .btn-warning {
-  background-color: #FFC107;
+  background-color: #F58D07;
   color: #fff;
   padding: 0 20px;
   border: none;
@@ -11995,7 +11998,19 @@ textarea.form-control-lg {
   font-weight: 600;
 }
 .btn-warning:hover {
-  background-color: #FFA000;
+  background-color: #FFC107;
   color: #fff;
   transform: translateY(-2px);
+}
+
+#card {
+  background-color: #fff;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 400;
+  border-width: 0;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+  border-radius: 2rem;
 }/*# sourceMappingURL=custom.css.map */

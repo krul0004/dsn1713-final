@@ -94,11 +94,15 @@ $container-padding-x: 130px;
   color: #5D8474;
   padding-top: 8px;
   padding-bottom: 8px;
+
+  &:hover {
+     transform: translateY(-2px);
+  }
 }
 
 
 .btn-warning {
-  background-color: #FFC107; // Bright yellow color
+  background-color: #F58D07 ; // Bright yellow color
   color: #fff; // White 
   padding: 0 20px; 
   border: none; 
@@ -106,10 +110,22 @@ $container-padding-x: 130px;
   font-weight: 600; // semi bold text
   
   &:hover {
-    background-color: #FFA000; // darker yellow hover
+    background-color: #FFC107; // Lighter yellow hover
     color: #fff; // Keep the text white
    
     transform: translateY(-2px);
   }
 
+}
+
+#card {
+  background-color: #fff;
+  border: none; 
+  border-radius: 2rem; 
+  font-weight: 400; 
+  border-width: 0;
+}
+
+.btn-lg {
+border-radius: 2rem;
 }
