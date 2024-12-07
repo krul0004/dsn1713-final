@@ -75,6 +75,20 @@ $container-padding-x: 130px;
 }
 
 
+.responsive-btn {
+  width: 100; // Full width for smaller screens
+
+  @media (min-width: 768px) { // From medium breakpoints (md) upwards
+    width: calc(100% / 3); // One-third of the available width
+  }
+}
+
+
+
+
+
+
+
 
 
 
@@ -167,4 +181,6 @@ $container-padding-x: 130px;
   .image-rectangle {
     @include rounded-rectangle(100%, 461px, 30px);
   }
+
+ 
 }
