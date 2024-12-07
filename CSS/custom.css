@@ -18,7 +18,7 @@
 }
 
 .responsive-btn {
-  width: 100;
+  width: 100%;
 }
 @media (min-width: 768px) {
   .responsive-btn {
@@ -12026,10 +12026,10 @@ textarea.form-control-lg {
   transform: translateY(-2px);
 }
 
-#card {
+.card {
   background-color: #fff;
   border: none;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   font-weight: 400;
   border-width: 0;
 }
