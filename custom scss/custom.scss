@@ -160,5 +160,11 @@ $container-padding-x: 130px;
 
 
 .image-rectangle {
-  @include rounded-rectangle(100%, 461px, 15px);
+  @include rounded-rectangle(100%, 200px, 15px);
+}
+
+@media (min-width: 576px) { 
+  .image-rectangle {
+    @include rounded-rectangle(100%, 461px, 30px);
+  }
 }
