@@ -17,10 +17,6 @@
   background-size: cover;
 }
 
-.about .content img {
-  max-height: 50%;
-}
-
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -12045,7 +12041,7 @@ textarea.form-control-lg {
 
 .image-rectangle {
   width: 100%;
-  height: 150px;
+  height: 461px;
   overflow: hidden;
   border-radius: 15px;
   -o-object-fit: cover;

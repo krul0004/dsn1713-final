@@ -65,11 +65,8 @@ $container-padding-x: 130px;
   background-size: cover;
 }
 
-.about .content img {
-  max-height: 50%;
-}
 
-@mixin rounded-rectangle($width: 100%, $height: 200px, $radius: 10px) {
+@mixin rounded-rectangle($width: 100%, $height: 400px, $radius: 10px) {
   width: $width; // Set the width of the rectangle
   height: $height; // Set the cropped height
   overflow: hidden; // Ensure content stays within the rectangle
@@ -163,5 +160,5 @@ $container-padding-x: 130px;
 
 
 .image-rectangle {
-  @include rounded-rectangle(100%, 150px, 15px);
+  @include rounded-rectangle(100%, 461px, 15px);
 }
