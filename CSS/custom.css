@@ -12046,6 +12046,10 @@ footer {
      object-fit: cover;
 }
 
+.btn-info {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .image-rectangle {
     width: 100%;
@@ -12092,6 +12096,10 @@ footer {
   }
   .responsive-btn {
     width: 50%;
+  }
+  .btn-info {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 .nav-link {

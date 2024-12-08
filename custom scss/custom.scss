@@ -158,6 +158,10 @@ height: 48px;
   @include rounded-rectangle(100%, 200px, 15px);
 }
 
+.btn-info {
+  width: 100%;
+}
+
 @media (min-width: 576px) {
   .image-rectangle {
     @include rounded-rectangle(100%, 461px, 30px);
@@ -208,6 +212,10 @@ height: 48px;
   .responsive-btn {
   width: 50%;
   }
+
+  .btn-info {
+    width: fit-content;
+    }
 
 }
   
