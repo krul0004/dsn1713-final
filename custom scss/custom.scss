@@ -29,7 +29,7 @@ $info: #475B49; // Dark green
 $light: #f8f9fa; // Light gray
 $dark: #343a40; // Dark gray
 $palegreen: #DCE6DE;
-$petpurple: #64627D;
+
 
 $box-shadow-sm: none;
 
@@ -150,7 +150,13 @@ height: 48px;
 
 }
 
+.responsive-btn {
+  width: 100%;
+  }
 
+.image-rectangle {
+  @include rounded-rectangle(100%, 200px, 15px);
+}
 
 @media (min-width: 576px) {
   .image-rectangle {
@@ -194,6 +200,15 @@ height: 48px;
   footer {
     padding: 0 130px;
   }
+
+  .image-rectangle {
+    @include rounded-rectangle(100%, 461px, 15px);
+  }
+  
+  .responsive-btn {
+  width: 50%;
+  }
+
 }
   
 
@@ -262,9 +277,7 @@ height: 48px;
 
 
 
-.image-rectangle {
-  @include rounded-rectangle(100%, 200px, 15px);
-}
+
 
 
 
@@ -323,6 +336,7 @@ height: 48px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: $palegreen;
 
 }
 

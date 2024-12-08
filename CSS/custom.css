@@ -12033,6 +12033,19 @@ footer {
   border-radius: 8px;
 }
 
+.responsive-btn {
+  width: 100%;
+}
+
+.image-rectangle {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media (min-width: 576px) {
   .image-rectangle {
     width: 100%;
@@ -12068,6 +12081,17 @@ footer {
   }
   footer {
     padding: 0 130px;
+  }
+  .image-rectangle {
+    width: 100%;
+    height: 461px;
+    overflow: hidden;
+    border-radius: 15px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .responsive-btn {
+    width: 50%;
   }
 }
 .nav-link {
@@ -12122,15 +12146,6 @@ footer {
   transform: translateY(-2px);
 }
 
-.image-rectangle {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  border-radius: 15px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 .form-section {
   background-color: #f5f5f5;
   padding: 50px 0;
@@ -12172,6 +12187,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #DCE6DE;
 }
 
 .impact-section {
