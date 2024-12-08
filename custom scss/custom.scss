@@ -21,7 +21,7 @@ $h6-font-size: $font-size-base !default;
 
 
 $primary: #85b49c; // Muted green
-$secondary: #6c757d; // Bootstrap's default secondary
+$secondary: #64627D; // Bootstrap's default secondary
 $success: #5D8474; // darker green success
 $warning: #ffc107; // Bootstrap's default warning
 $danger: #dc3545; // Bootstrap's default danger
@@ -29,9 +29,9 @@ $info: #475B49; // Dark green
 $light: #f8f9fa; // Light gray
 $dark: #343a40; // Dark gray
 $palegreen: #DCE6DE;
+$petpurple: #64627D;
 
-
-
+$box-shadow-sm: none;
 
 // accordions
 $accordion-border-width: 0;
@@ -121,6 +121,10 @@ section {
   padding: 0 20px;
 }
 
+footer {
+  padding: 0 20px;
+}
+
 .card-icon {
 height: 48px;
 }
@@ -186,6 +190,10 @@ height: 48px;
   .navbar {
     padding: 0 130px;
   }
+
+  footer {
+    padding: 0 130px;
+  }
 }
   
 
@@ -233,6 +241,7 @@ height: 48px;
   border-radius: 1rem;
   font-weight: 400;
   border-width: 0;
+  
 }
 
 .btn-lg {
@@ -353,6 +362,7 @@ form {
 
 #card-icon {
   height: 48px;
+  padding: 8px;
 }
 
 #comment {
