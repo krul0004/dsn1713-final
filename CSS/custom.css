@@ -11998,7 +11998,7 @@ textarea.form-control-lg {
     scroll-behavior: smooth;
   }
 }
-section:not(#hero):not(#cta) {
+section {
   padding: 20px 0;
 }
 
@@ -12020,11 +12020,6 @@ section:not(#hero):not(#cta) {
     background-image: url("/images/tree-trunk.svg");
     background-repeat: no-repeat;
     background-position: center;
-  }
-}
-@media (min-width: 768px) {
-  .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
-    --bs-gutter-x: 130px;
   }
 }
 .nav-link {

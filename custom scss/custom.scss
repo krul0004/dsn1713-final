@@ -61,6 +61,7 @@ $container-max-widths: (
 .section {
 	--bs-gutter-x: 20px;
 }
+
 #about {
   background: #DCE6DE;
 }
@@ -114,7 +115,7 @@ $container-max-widths: (
 
 
 
-section:not(#hero):not(#cta){
+section {
   padding: 20px 0;
 }
 
@@ -145,13 +146,6 @@ section:not(#hero):not(#cta){
 
 
 
-@media (min-width: 768px) {
-  
-
-  .container-fluid {
-    --bs-gutter-x: 130px;
-  }
-}
 
 
 
