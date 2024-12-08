@@ -12024,10 +12024,10 @@ textarea.form-control-lg {
   transform: translateY(-2px);
 }
 
-#card {
+.card {
   background-color: #fff;
   border: none;
-  border-radius: 2rem;
+  border-radius: 1rem;
   font-weight: 400;
   border-width: 0;
 }
@@ -12156,5 +12156,6 @@ textarea.form-control-lg {
   }
 }
 form {
-  background-color: #85b49c;
+  background-color: #DCE6DE;
+  border-radius: 1rem;
 }/*# sourceMappingURL=custom.css.map */

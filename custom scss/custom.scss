@@ -28,6 +28,7 @@ $danger: #dc3545; // Bootstrap's default danger
 $info: #17a2b8; // Bootstrap's default info
 $light: #f8f9fa; // Light gray
 $dark: #343a40; // Dark gray
+$palegreen: #DCE6DE;
 
 // accordions
 $accordion-border-width: 0;
@@ -142,10 +143,10 @@ $container-padding-x: 130px;
 
 }
 
-#card {
+.card {
   background-color: #fff;
   border: none; 
-  border-radius: 2rem; 
+  border-radius: 1rem; 
   font-weight: 400; 
   border-width: 0;
 }
@@ -278,5 +279,6 @@ $container-padding-x: 130px;
 }
 
 form {
-background-color: #85b49c;
+background-color: $palegreen;
+border-radius: 1rem;
 }
