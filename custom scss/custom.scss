@@ -116,9 +116,26 @@ $container-max-widths: (
 
 
 section {
-  padding: 20px 0;
+  padding: 0 20px;
 }
 
+
+.story-section {
+  padding: 50px 0;
+}
+
+.story-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.story-item {
+
+  padding: 20px;
+  border-radius: 8px;
+
+}
 
 
 
@@ -140,10 +157,22 @@ section {
 
   }
 
-
+  
 }
 
 
+@media (min-width: 960px) {
+  
+  section {
+    padding: 0 130px;
+  }
+
+  .story-section {
+    padding: 50px 130px;
+  }
+   
+}
+  
 
 
 
@@ -298,23 +327,6 @@ section {
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
-}
-
-.story-section {
-  padding: 50px 0;
-}
-
-.story-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
-
-.story-item {
-
-  padding: 20px;
-  border-radius: 8px;
-
 }
 
 
