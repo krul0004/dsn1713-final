@@ -18,48 +18,14 @@
         rel="stylesheet">
 
   <style>
-    body {
-      font-family: Arial, sans-serif;
-    }
-    .hero {
-      background-color: #e4f1eb;
-      padding: 80px 0;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-    }
-    .hero p {
-      font-size: 1.25rem;
-      color: #555;
-    }
-    .form-section {
-      background-color: #f5f5f5;
-      padding: 50px 0;
-    }
-    .faq-section {
-      padding: 50px 0;
-    }
-    .shipping-section {
-      background-color: #ffde88;
-      padding: 50px 0;
-    }
-    .cta-section {
-      background-color: #4a6655;
-      color: #fff;
-      padding: 50px 0;
-    }
-    .cta-section a {
-      background-color: #fff;
-      color: #4a6655;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
+    
+    
   </style>
-   <link rel="stylesheet" href="CSS/custom.css">
+   <link rel="stylesheet" href="css/custom.css">
 </head>
+
+
+
 <body>
     <header class="container-fluid">
 
@@ -90,17 +56,29 @@
     </header>
     
 <!-- Hero Section -->
-<section class="hero">
-  <div class="container">
-    <h1>Here To Help</h1>
-    <p>So ask away, or find our FAQs.</p>
-    <a href="#faqs" class="btn btn-success">FAQs</a>
+<section id="hero-bg" class="hero d-flex align-items-center py-5 text-light">
+  <div class="container-fluid">
+      <div class="row align-items-center">
+
+          
+          <!-- Text Content on the Right -->
+          <div class="col-md-6 text-start py-5 px-5">
+              <h1 class="mb-3">Here To Help</h1>
+              <p class="mb-4">So ask away, or find our FAQs.</p>
+              <a href="#" class="btn btn-primary">FAQs</a>
+          </div>
+
+           <!-- Space on the Left -->
+           <div class="col-md-6">
+              
+           </div>
+      </div>
   </div>
 </section>
 
 <!-- Contact Section -->
 <section class="form-section">
-  <div class="container">
+  <div class="container-fluid mx-0 ">
     <div class="row">
       <div class="col-md-4">
         <h3>Contact Us</h3>
@@ -113,11 +91,11 @@
       </div>
       <div class="col-md-4">
         <h3>Map</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509333!2d144.9537353156901!3d-37.81720997975179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577ae0d1018c637!2s960%20Sixth%20Street%2C%20Norco%2C%20CA%2092860!5e0!3m2!1sen!2sus!4v1680825585364!5m2!1sen!2sus" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="embedded-map-display" style="height:50%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=​960+Sixth+Street+-+Suite+101A-104Norco,+CA+92860&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="from-embedmap-code" rel="nofollow" href="https://kbj9qpmy.com/bp" id="inject-map-data">Internet Provider</a><style>#embedded-map-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style></div>
       </div>
       <div class="col-md-4">
         <h3>Get In Touch</h3>
-        <form>
+        <form class="p-3">
           <div class="mb-3">
             <label for="name" class="form-label">Name</label>
             <input type="text" class="form-control" id="name">
@@ -138,23 +116,106 @@
 </section>
 
 <!-- FAQ Section -->
-<section class="faq-section" id="faqs">
-  <div class="container">
-    <h2 class="text-center">FAQs</h2>
-    <div class="row">
-      <div class="col-md-6">
-        <p>Are there 2 kibble sizes?</p>
-        <p>Where can I shop?</p>
-        <p>Are there bulk options?</p>
+<section class="py-5 bg-light">
+  <div class="container-fluid">
+    <div class="row align-items-center">
+      <h2 class="mb-4 text-center">FAQs</h2>
+      <div class="col-lg-8 ">
+        
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-md-6">
+            <div class="accordion" id="faqAccordion1">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Are there 2 kibble sizes?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion1">
+                  <div class="accordion-body">
+                    Yes, we offer two kibble sizes to cater to dogs of different sizes.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Where can I shop?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion1">
+                  <div class="accordion-body">
+                    Our products are available online and at select retailers nationwide.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Are there bulk options?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion1">
+                  <div class="accordion-body">
+                    Yes, we offer discounts for bulk orders. Contact us for details.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Column 2 -->
+          <div class="col-md-6">
+            <div class="accordion" id="faqAccordion2">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Do you offer discounts?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion2">
+                  <div class="accordion-body">
+                    Yes, discounts are available for subscription plans and bulk orders.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Are your foods US made?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion2">
+                  <div class="accordion-body">
+                    All our products are proudly made in the USA with locally sourced ingredients.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Feeding instructions?
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion2">
+                  <div class="accordion-body">
+                    Feeding guidelines can be found on our product packaging and website.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="col-md-6">
-        <p>Do you offer discounts?</p>
-        <p>Are your foods US made?</p>
-        <p>Feeding instructions?</p>
+      <!-- Call to Action -->
+      <div class="col-lg-4 text-center">
+        <h4>Have Questions?</h4>
+        <a href="/contact.html" class="btn btn-primary mt-3 px-4 py-2">Contact Us</a>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- Shipping Section -->
 <section class="shipping-section">

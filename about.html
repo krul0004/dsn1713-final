@@ -17,76 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
     rel="stylesheet">
-  <style>
-   
-   #hero-bg2 {
-      background-image: url(/images/cat-paw-orng.png);
-      background-position: center;
-      background-repeat: no-repeat; 
-      background-size: 100%;
-    }
-    .impact-section {
-      background-color: #f5f5f5;
-      padding: 50px 0;
-    }
-
-    .impact-section .card {
-      border: none;
-      border-radius: 10px;
-      background-color: #fff;
-      padding: 20px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    }
-
-    .cta-section {
-      background-color: #6d5a82;
-      color: #fff;
-      padding: 50px 0;
-    }
-
-    .cta-section a {
-      background-color: #fff;
-      color: #6d5a82;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
-    }
-
-    .story-section {
-      padding: 50px 0;
-    }
-
-    .story-grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-
-    .story-item {
-
-      padding: 20px;
-      border-radius: 8px;
-    
-    }
-
-    @media (min-width: 576px) {
-
-      .story-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
-      .bg-trunk {
-        background-image: url("/images/tree-trunk.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-
-      }
-
-    }
-  </style>
-
-  <link rel="stylesheet" href="CSS/custom.css">
+ 
+  <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body>
@@ -123,43 +55,60 @@
     <div class="container-fluid">
         <div class="row align-items-center">
 
-            <!-- Space on the Left -->
-            <div class="col-md-6">
-                
-            </div>
-            
+           
             <!-- Text Content on the Right -->
-            <div class="col-md-6 text-start py-5 px-5">
+            <div class="col-md-6 text-end py-5 px-5">
                 <h1 class="mb-3">Caring For Giants</h1>
                 <p class="mb-4">Choose Gentle Giants, make a difference. All sales support our Gentle Giants pet rescue initiative.</p>
                 <a href="#" class="btn btn-primary">Shop Now</a>
             </div>
+
+             <!-- Space on the right -->
+             <div class="col-md-6">
+                
+             </div>
+             
         </div>
     </div>
 </section>
 
 
   <!-- Impact Section -->
-  <section class="impact-section">
-    <div class="container text-center">
-      <h2>See The Impact</h2>
-      <div class="row mt-4">
+  <section class="py-5 bg-primary">
+    <div class="container-fluid">
+      <h2 class="text-center ">See The Impact</h2>
+      <div class="row g-4">
+        <!-- Card 1 -->
         <div class="col-md-4">
-          <div class="card">
-            <p><strong>Peach</strong></p>
-            <p>"I have been using this dog food since I first learned about it..."</p>
+          <div class="card h-100 p-3 d-flex">
+            <div class="d-flex align-items-center">
+              <img src="profile1.jpg" alt="Profile Image" class="rounded-circle me-3" width="60" height="60">
+              
+            </div>
+            <h5 class="mb-1">Peach</h5>
+            <p class="mt-3 mb-0">"I have been using this dog food since I first learned about it. I have one dog who lived to be 18 years eating this food and another who lived to be 21!"</p>
           </div>
         </div>
+        <!-- Card 2 -->
         <div class="col-md-4">
-          <div class="card">
-            <p><strong>Tim</strong></p>
-            <p>"My German Shepherd, Big Big, lived to be 23 years old..."</p>
+          <div class="card h-100 p-3 d-flex" id="">
+            <div class="d-flex align-items-center">
+              <img src="profile2.jpg" alt="Profile Image" class="rounded-circle me-3" width="60" height="60">
+             
+            </div>
+            <h5 class="mb-1">Tim Olson</h5>
+            <p class="mt-3 mb-0">"My German Shepherd, Big Rig, lived to be 23 years old thanks to your wonderful dog food, and he never had any health problems. Thanks, Burt!"</p>
           </div>
         </div>
+        <!-- Card 3 -->
         <div class="col-md-4">
-          <div class="card">
-            <p><strong>Corinna</strong></p>
-            <p>"Just read the label and compare pricing with other comparable brands..."</p>
+          <div class="card h-100 p-3 d-flex">
+            <div class="d-flex align-items-center">
+              <img src="profile3.jpg" alt="Profile Image" class="rounded-circle me-3" width="60" height="60">
+              
+            </div>
+            <h5 class="mb-1">Corrina</h5>
+            <p class="mt-3 mb-0">"Just read the label and compare pricing with other comparable brands. There is NO competition. Trust me, can't beat the volume, price, or ingredients."</p>
           </div>
         </div>
       </div>
