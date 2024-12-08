@@ -113,12 +113,17 @@ $container-max-widths: (
   }
 }
 
-
+.navbar {
+  padding: 0 20px;
+}
 
 section {
   padding: 0 20px;
 }
 
+.card-icon {
+height: 48px;
+}
 
 .story-section {
   padding: 50px 0;
@@ -171,6 +176,9 @@ section {
     padding: 50px 130px;
   }
    
+  .navbar {
+    padding: 0 130px;
+  }
 }
   
 

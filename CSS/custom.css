@@ -11998,8 +11998,16 @@ textarea.form-control-lg {
     scroll-behavior: smooth;
   }
 }
+.navbar {
+  padding: 0 20px;
+}
+
 section {
   padding: 0 20px;
+}
+
+.card-icon {
+  height: 48px;
 }
 
 .story-section {
@@ -12043,6 +12051,9 @@ section {
   }
   .story-section {
     padding: 50px 130px;
+  }
+  .navbar {
+    padding: 0 130px;
   }
 }
 .nav-link {
