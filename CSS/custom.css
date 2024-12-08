@@ -12010,6 +12010,10 @@ section {
   height: 48px;
 }
 
+.story-item-hide {
+  display: none;
+}
+
 .story-section {
   padding: 50px 0;
 }
@@ -12043,6 +12047,9 @@ section {
     background-image: url("/images/tree-trunk.svg");
     background-repeat: no-repeat;
     background-position: center;
+  }
+  .story-item-hide {
+    display: block;
   }
 }
 @media (min-width: 960px) {
