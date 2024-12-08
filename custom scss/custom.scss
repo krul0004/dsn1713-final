@@ -217,6 +217,15 @@ $container-padding-x: 130px;
   background-size: 100%;
 
 }
+
+#hero-bg3 {
+  background-image: url(/images/ball-hero.webp);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+
+}
+
 .impact-section {
   background-color: #f5f5f5;
   padding: 50px 0;
@@ -281,4 +290,8 @@ $container-padding-x: 130px;
 form {
 background-color: $palegreen;
 border-radius: 1rem;
+}
+
+#card-icon {
+height:48px ;
 }

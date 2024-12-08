@@ -12101,6 +12101,13 @@ textarea.form-control-lg {
   background-size: 100%;
 }
 
+#hero-bg3 {
+  background-image: url(/images/ball-hero.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .impact-section {
   background-color: #f5f5f5;
   padding: 50px 0;
@@ -12158,4 +12165,8 @@ textarea.form-control-lg {
 form {
   background-color: #DCE6DE;
   border-radius: 1rem;
+}
+
+#card-icon {
+  height: 48px;
 }/*# sourceMappingURL=custom.css.map */
