@@ -11,7 +11,10 @@
   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +61,7 @@
            
             <!-- Text Content on the Right -->
             <div class="col-md-6 text-end py-5 px-5">
-                <h1 class="mb-3">Caring For Giants</h1>
+                <h1 class="mb-3 animate__animated animate__fadeIn">Caring For Giants</h1>
                 <p class="mb-4">Choose Gentle Giants, make a difference. All sales support our Gentle Giants pet rescue initiative.</p>
                 <a href="#" class="btn btn-secondary text-white">Shop Now</a>
             </div>
@@ -122,12 +125,15 @@
       <div class="story-grid mt-4 bg-trunk ">
         <div class="story-item story-item-hide">
         </div>
-        <div class="story-item">
+        <div class="story-item animate__animated animate__slideInRight">
           <img src="images/tree-branch.svg" alt="branch" class="me-3" width="100" height="100">
           <p>It all starts with Burt and Tracy’s at-home non-profit animal shelter (founded in 1994), which is the world’s largest giant breed rescue. The Gentle giants formula was created to properly feed the 10-20 dogs they re-home each week. </p>
         </div>
-        <div class="story-item">
-          <img src="images/tree-branch-flip.svg" alt="branch" class="me-3" width="100" height="100">
+        <div class="story-item-r animate__animated animate__slideInLeft">
+          <div class="branch-r">
+            <img src="images/tree-branch-flip.svg" alt="branch" class="me-3 mx-auto" width="100" height="100">
+          </div>
+          
           <p>In 2009, after encouragement from veterenarians, the Gentle Giants pet food formulas were perfected and released for worldwide sale. Gentle Giants was officially open for business.</p>
         </div>
         <div class="story-item story-item-hide">
@@ -135,13 +141,13 @@
         <div class="story-item story-item-hide">
          
         </div>
-        <div class="story-item">
+        <div class="story-item animate__animated animate__slideInRight ">
           <img src="images/tree-branch.svg" alt="branch" class="me-3" width="100" height="100">
           <p>Since 2009, countless dogs have enjoyed the benefits of gentle giants pet foods,  leading long healthy lives without eating harmful GMOs, fillers, and preservatives.  </p>
         </div>
       </div>
-      <div class="story-item text-center ">
-        <img src="images/circle-icon.svg" alt="branch" class="" width="100" height="32px">
+      <div class="story-item text-center animate__animated animate__slideInUp ">
+        <img src="images/circle-icon.svg" alt="branch" class="py-2" width="100" height="48px">
         <p>The sky is the limit! We are committed to staying on the cutting edge of pet nutrition, and are always improving our products and expanding our reach.</p>
       </div>
     </div>
@@ -158,6 +164,56 @@
     </div>
   </section>
   
+
+  <footer class="py-5 bg-light">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-md-4">
+          <h5 class="mb-4">Contact</h5>
+          <ul class="list-unstyled">
+            <li>(555) 601-8283</li>
+            <li><a href="mailto:bryan@gentlegiantproducts.com" class="text-dark">bryan@gentlegiantproducts.com</a></li>
+            <li>801 Sixth Street - Suite 104-104</li>
+            <li>Norco, CA 92860</li>
+          </ul>
+        </div>
+  
+        
+        <div class="col-md-4 text-center">
+          <h5 class="mb-4">Gentle Giants</h5>
+          <div class="d-flex justify-content-center">
+            <a href="https://www.instagram.com/gentlegiantsdogfoodandcatfood/" class="text-dark mx-2">
+              <img src="images/instagram-icon.svg" alt="instagram icon" class="card-icon">
+            </a>
+            <a href="https://www.facebook.com/gentlegiantsdogfoodandcatfood" class="text-dark mx-2">
+              <img src="images/fb-icon.svg" alt="Facebook icon" class="card-icon">
+            </a>
+            <a href="https://www.youtube.com/channel/UCFaq3b0d45wl_JjkNpA2Qew" class="text-dark mx-2">
+              <img src="images/yt-icon.svg" alt="youtube icon" class="card-icon">
+            </a>
+          </div>
+        </div>
+  
+        
+        <div class="col-md-4 text-md-end">
+          <h5 class="mb-4">Pages</h5>
+          <ul class="list-unstyled">
+            <li><a href="about.html" class="text-dark">About</a></li>
+            <li><a href="products.html" class="text-dark">Products</a></li>
+            <li><a href="contact.html" class="text-dark">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center mt-4">
+        <p class="mb-0">&copy; 2024 Gentle Giants. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

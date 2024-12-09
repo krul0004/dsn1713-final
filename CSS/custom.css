@@ -12237,4 +12237,9 @@ form {
 
 #comment {
   background-color: #DCE6DE;
+}
+
+.branch-r img {
+  display: flex;
+  align-items: flex-end;
 }/*# sourceMappingURL=custom.css.map */
