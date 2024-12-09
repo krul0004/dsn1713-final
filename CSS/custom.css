@@ -15,14 +15,14 @@
 }
 
 #hero-bg {
-  background-image: url(./images/dog-hero-1.jpg);
+  background-image: url(../images/dog-hero-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #hero-bg2 {
-  background-image: url(./images/cat-paw-orng.png);
+  background-image: url(../images/cat-paw-orng.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12066,7 +12066,7 @@ footer {
     gap: 20px;
   }
   .bg-trunk {
-    background-image: url("./images/tree-trunk.svg");
+    background-image: url(../images/tree-trunk.svg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -12185,14 +12185,14 @@ footer {
 }
 
 #hero-bg2 {
-  background-image: url(./images/cat-paw-orng.png);
+  background-image: url(../images/cat-paw-orng.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
 }
 
 #hero-bg3 {
-  background-image: url(./images/ball-hero.webp);
+  background-image: url(../images/ball-hero.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
