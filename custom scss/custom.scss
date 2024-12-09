@@ -5,9 +5,6 @@
   font-style: normal;
 }
 
-
-
-
 $font-size-base: 1rem;
 
 $h1-font-size: $font-size-base * 4.5 !default;
@@ -17,19 +14,15 @@ $h4-font-size: $font-size-base * 1.5 !default;
 $h5-font-size: $font-size-base * 1.25 !default;
 $h6-font-size: $font-size-base !default;
 
-
-
-
 $primary: #85b49c; // Muted green
-$secondary: #64627D; // Bootstrap's default secondary
-$success: #5D8474; // darker green success
+$secondary: #64627d; // Bootstrap's default secondary
+$success: #5d8474; // darker green success
 $warning: #ffc107; // Bootstrap's default warning
 $danger: #dc3545; // Bootstrap's default danger
-$info: #475B49; // Dark green
+$info: #475b49; // Dark green
 $light: #f8f9fa; // Light gray
 $dark: #343a40; // Dark gray
-$palegreen: #DCE6DE;
-
+$palegreen: #dce6de;
 
 $box-shadow-sm: none;
 
@@ -45,25 +38,22 @@ $btn-padding-x: 1.25rem;
 
 // Nav Menu toggler
 
-
 $container-padding-x: 20px;
 
 $container-max-widths: (
   sm: 100%,
-  // Small: Full 
+  // Small: Full
   md: 720px,
   lg: 960px,
-  xl: 1140px
+  xl: 1140px,
 );
 
-
-
 .section {
-	--bs-gutter-x: 20px;
+  --bs-gutter-x: 20px;
 }
 
 #about {
-  background: #DCE6DE;
+  background: #dce6de;
 }
 
 #hero-bg {
@@ -88,16 +78,7 @@ $container-max-widths: (
   object-fit: cover; // Ensure the image maintains aspect ratio while filling the container
 }
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-
-
-
-
-
-
-
 
 // Then add additional custom code here
 
@@ -126,7 +107,7 @@ footer {
 }
 
 .card-icon {
-height: 48px;
+  height: 48px;
 }
 
 .story-item-hide {
@@ -145,15 +126,13 @@ height: 48px;
 }
 
 .story-item {
-
   padding: 20px;
   border-radius: 8px;
-
 }
 
 .responsive-btn {
   width: 100%;
-  }
+}
 
 .image-rectangle {
   @include rounded-rectangle(100%, 200px, 15px);
@@ -178,18 +157,14 @@ height: 48px;
     background-image: url("/images/tree-trunk.svg");
     background-repeat: no-repeat;
     background-position: center;
-
   }
 
   .story-item-hide {
     display: block;
   }
-  
 }
 
-
 @media (min-width: 960px) {
-  
   section {
     padding: 0 130px;
   }
@@ -197,7 +172,7 @@ height: 48px;
   .story-section {
     padding: 50px 130px;
   }
-   
+
   .navbar {
     padding: 0 130px;
   }
@@ -209,24 +184,18 @@ height: 48px;
   .image-rectangle {
     @include rounded-rectangle(100%, 461px, 15px);
   }
-  
+
   .responsive-btn {
-  width: 50%;
+    width: 50%;
   }
 
   .btn-info {
     width: fit-content;
-    }
-
+  }
 }
-  
-
-
-
-
 
 .nav-link {
-  color: #5D8474;
+  color: #5d8474;
   padding-top: 8px;
   padding-bottom: 8px;
 
@@ -243,20 +212,19 @@ height: 48px;
 }
 
 .btn-warning {
-  background-color: #F58D07; // Bright yellow color
-  color: #fff; // White 
+  background-color: #f58d07; // Bright yellow color
+  color: #fff; // White
   padding: 0 20px;
   border: none;
   border-radius: 2rem;
   font-weight: 600; // semi bold text
 
   &:hover {
-    background-color: #FFC107; // Lighter yellow hover
+    background-color: #ffc107; // Lighter yellow hover
     color: #fff; // Keep the text white
 
     transform: translateY(-2px);
   }
-
 }
 
 .card {
@@ -265,7 +233,6 @@ height: 48px;
   border-radius: 1rem;
   font-weight: 400;
   border-width: 0;
-  
 }
 
 .btn-lg {
@@ -284,25 +251,9 @@ height: 48px;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .form-section {
   background-color: #f5f5f5;
   padding: 50px 0;
-
-
 }
 
 .faq-section {
@@ -329,15 +280,11 @@ height: 48px;
   border-radius: 5px;
 }
 
-
-
-
 #hero-bg2 {
   background-image: url(/images/cat-paw-orng.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-
 }
 
 #hero-bg3 {
@@ -346,7 +293,6 @@ height: 48px;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: $palegreen;
-
 }
 
 .impact-section {
@@ -376,8 +322,6 @@ height: 48px;
   border-radius: 5px;
 }
 
-
-
 form {
   background-color: $palegreen;
   border-radius: 1rem;
@@ -391,7 +335,6 @@ form {
 #comment {
   background-color: $palegreen;
 }
-
 
 .branch-r img {
   display: flex;
